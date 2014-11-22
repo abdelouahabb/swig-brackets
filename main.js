@@ -3,7 +3,7 @@ define(function (require, exports, module) {
 
   var LanguageManager = brackets.getModule("language/LanguageManager");
 
-  LanguageManager.defineLanguage("django", {
+  LanguageManager.defineLanguage("swig", {
       name: "Swig",
       mode: "django",
       fileExtensions: ["html"],
