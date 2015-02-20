@@ -6,7 +6,7 @@ define(function (require, exports, module) {
   LanguageManager.defineLanguage("swig", {
       name: "Swig",
       mode: "django",
-      fileExtensions: ["html"],
+      fileExtensions: ["html", "swig"],
       blockComment: ["{#", "#}"],
   });
 });
